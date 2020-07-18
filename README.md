@@ -12,7 +12,7 @@ Firstly clone this repo in your local system by the following command.
 ```
 git clone https://github.com/IP1102/Face-Mask-Detection.git
 ```
-Install the dependencies in your environment by the following command. Note: Python 3+ is recommended.
+Install the dependencies in your environment by the following command. Note: Python 3.4+ is must.
 ```
 pip install -r requirements.txt
 ```
