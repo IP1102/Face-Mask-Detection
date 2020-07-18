@@ -22,6 +22,9 @@ To test it, simply run the face_mask_detection(webcam).py file as follows.
 ```
 python face_mask_detection(webcam).py
 ```
+
+## Demo
+![Face Mask Detector Demo](demo/demo.gif)
 ## Dataset
 The dataset that I used in this project can be found [here](https://app.monstercampaigns.com/c/tortsem7qkvyuxc4cyfi). This dataset contains 1376 images of 2 classes - with_mask (690) and without_mask(686). The dataset is created by Prajna Bhandary. She took pictures of naked faces and applied a digital mask on top of the face to create the masked faces dataset. Brilliant! But this lead to that previously mention 100% accuracy on validation set, because each picture had the same blue surgical mask. So applying other masks in this dataset will increase the model performance. 
 
