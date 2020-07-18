@@ -35,16 +35,16 @@ while (True):
         pred_temp = model.predict(roi)
         pred = np.argmax(pred_temp,axis=1)
 
-        print(pred)
+        #print(pred)
         if (pred==0):
             cv2.putText(frame,
-            "MASK",(100,100),cv2.FONT_HERSHEY_SIMPLEX,
+            "MASK",(x,y),cv2.FONT_HERSHEY_SIMPLEX,
             1, (0,255,255),2,
             cv2.LINE_4)
             cv2.rectangle(frame, (x,y), (x+w,y+h), (0,255,0), stroke)
         else:
             cv2.putText(frame,
-            "NO MASK",(100,100),cv2.FONT_HERSHEY_SIMPLEX,
+            "NO MASK",(x,y),cv2.FONT_HERSHEY_SIMPLEX,
             1, (0,128,255),2,
             cv2.LINE_4)
             cv2.rectangle(frame, (x,y), (x+w,y+h), (0,0,255), stroke)
