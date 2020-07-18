@@ -2,3 +2,4 @@ OpenCV==4.1.2
 numpy>=1.18.1
 tensorflow==2.1.0
 keras-vggface==0.6
+mtcnn==0.1.0
